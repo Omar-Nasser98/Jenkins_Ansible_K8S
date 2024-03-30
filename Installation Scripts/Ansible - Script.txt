@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo apt-get update
+
+#Install Ansible
+sudo apt-get install ansible -y
+
+#Print ansible version
+echo "Ansible version ..."
+ansible --version
